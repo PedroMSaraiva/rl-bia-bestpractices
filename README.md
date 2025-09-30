@@ -7,10 +7,10 @@
 
 ## Instalação
 
-Primeiro, vamos começar baixando o repositorio
+Primeiro, vamos começar baixando o repositorio.
 
 ```bash
-git clone 
+git clone  https://github.com/PedroMSaraiva/rl-bia-bestpractices.git
 ```
 
 Você pode conseguir as imagens dos container, buildando a imagem do zero ou puxando do DockerHub(Recomendado)
@@ -18,7 +18,7 @@ Você pode conseguir as imagens dos container, buildando a imagem do zero ou pux
 ### DockerHub (Recomendado)
 
 ```bash
-docker pull ...
+docker pull pedroamsaraiva/rl-bia-bestprac
 ```
 
 ### Buildando do Zero 
@@ -89,4 +89,5 @@ Abra o `localhost:6006` e veja o treinamento.
 ```
 ---
 
-Se você ver qualquer erro, me avise para arrumar.
+Se você fizer um docker-compose, ou otimizar essa imagem/container, me avise(ou crie uma issue) para disponibilizar a todos
+Se houver qualquer erro grave, me avise para arrumar.
