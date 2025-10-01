@@ -20,7 +20,7 @@ Você pode conseguir as imagens dos container, buildando a imagem do zero ou pux
 ```bash
 docker pull pedroamsaraiva/rl-bia-bestprac
 ```
-
+LEMBRANDO, FAÇA OU PELO DOCKER HUB OU BUILDANDO DO ZERO
 ### Buildando do Zero 
 ```bash
 # execute dentro do repositorio
